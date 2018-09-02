@@ -8,10 +8,9 @@
 
 
 <script>
-    console.log('1111111111')
     import getData from './util';
     export default {
-        name: 'appw',
+        name: 'appwsd',
         data(){
             return {
                 msg: 'welcome to honglangman'
@@ -23,7 +22,7 @@
         methods: {
             async fetchData(){
                 const data = await getData();
-                this.msg = data
+                //this.msg = data
             }
         }
     }

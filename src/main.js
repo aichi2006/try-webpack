@@ -40,8 +40,10 @@ import './style/common.scss';
 
 new Vue({
     el: '#app',
-    template: '<App />',
-    components: {App}
+    //template: '<App />',
+    components: {
+        App
+    }
 })
 
 
